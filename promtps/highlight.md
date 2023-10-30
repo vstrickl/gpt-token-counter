@@ -3,13 +3,13 @@ Provide me highlights and main points of the following transcript that would be 
 My Target Audience:”women between the ages of 35 and 50.”
 
 The Problems I solve: “
-    *feelings of overwhelm or feeling underserved in larger, more chaotic training settings
-     * Feeling stuck in one's progress when it comes to exercise, self-defense or practicing jiujitsu
-     * Overthinking when it comes to exercise, self-defense or practicing jiujitsu
-     * Intimidation when it comes to exercise, self-defense or practicing jiujitsu 
-     * Lack of knowledge or experience when it comes to exercise, self-defense or practicing jiujitsu
-     * Time Management issues when it comes to settings aside time for exercise, self-defense or practicing jiujitsu.
-     "
+    * feelings of overwhelm or feeling underserved in larger, more chaotic training settings
+    * Feeling stuck in one's progress when it comes to exercise, self-defense or practicing jiujitsu
+    * Overthinking when it comes to exercise, self-defense or practicing jiujitsu
+    * Intimidation when it comes to exercise, self-defense or practicing jiujitsu 
+    * Lack of knowledge or experience when it comes to exercise, self-defense or practicing jiujitsu
+    * Time Management issues when it comes to settings aside time for exercise, self-defense or practicing jiujitsu.
+    "
 
 Solutions I provide: "
     * Providing a comprehensive approach to exercise, self-defense and jiujitsu training that serves both the body and the mind

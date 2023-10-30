@@ -20,7 +20,7 @@ def split_text_by_tokens(input_file_path, output_directory, tokens_per_file=3500
         next_chunk_tokens = tokens[current_token_index:next_chunk_end]
         next_chunk_text = enc.decode(next_chunk_tokens)
 
-        output_file_path = os.path.join(output_directory, f'{file_name}_{file_count}.txt')
+        output_file_path = os.path.join(output_directory, f'{file_name}_{file_count}.md')
         with open(output_file_path, 'w', encoding='utf-8') as output_file:
             output_file.write(next_chunk_text)
 
@@ -29,6 +29,6 @@ def split_text_by_tokens(input_file_path, output_directory, tokens_per_file=3500
         file_count += 1
 
 file_name = 'Adisa'
-input_file_path = './transcripts/14_Adisa/Adisa_(Full).txt'
-output_directory = './outputs/14_Adisa'
+input_file_path = './transcripts/14_Adisa/Adisa_(Full)_modified.md'
+output_directory = './parsed_transcrtips/14_Adisa'
 split_text_by_tokens(input_file_path, output_directory)
