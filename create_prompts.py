@@ -1,7 +1,7 @@
 import tiktoken
 import os
 
-def split_text_by_tokens(input_file_path, output_directory, tokens_per_file=3500):
+def split_text_by_tokens(input_file_path, output_directory, tokens_per_file=2200):
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
@@ -29,6 +29,6 @@ def split_text_by_tokens(input_file_path, output_directory, tokens_per_file=3500
         file_count += 1
 
 file_name = 'Adisa'
-input_file_path = './transcripts/14_Adisa/Adisa_(Full)_modified.md'
-output_directory = './parsed_transcrtips/14_Adisa'
+input_file_path = './chat_gpt_responses/14_Adisa/14_Adisa(Full).md'
+output_directory = './parsed_responses/14_Adisa'
 split_text_by_tokens(input_file_path, output_directory)
