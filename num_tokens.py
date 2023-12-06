@@ -10,6 +10,6 @@ def num_tokens(file_path):
 
     return token_count
 
-file_path = './chat_gpt_responses/14_Adisa/14_Adisa(Full)_condensed.md'
+file_path = './dietician/monday-LL.md'
 token_count = num_tokens(file_path)
 print(f'The file contains {token_count} tokens.')
