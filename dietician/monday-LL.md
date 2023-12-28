@@ -1,29 +1,49 @@
-Design a meal plan with recipes and a list of ingredients for my Activities of the day. Use the prompts and information provided to design the program. Include, times for meals. Do NOT count leafy greens as a source of carbohydrates for post-workout meals (but they can be used as ingredients in all meals as a source of fiber). Do NOT use quinoa or rice any any of the meals. Also include the total estimated calories consumed by the food you have prescribed.
+Design a meal plan with recipes and a list of ingredients for my Activities of the day. Use the prompts and information provided to design the program.
 
-Amount of Meals for the Day: 3-6 meals including snacks in the day
+The Plan should include:
+- 3-6 meals including snacks in the day
+- The total calories consumed for that day
+- Suggested Bed time
 
-Main Meal Timing: Main meals should be 3-4hrs apart.
+Each Meal Recipe provided should Include
+- Meal times
+- Total estimated calories for that meal
+- An estimated Macro nutrient breakdown
 
-Pre-Workout Meal: Should be 60-90min prior to workout and have a macro breakdown of about 33.5-50.5g of carbs and  8.5-17g of protein
+Each meal should contain at least 1 item from the provided
+- Protein List
+- Complex Carb List
+- Veggies, Leafy Greens, Fruit and/or Nuts & Seeds List
 
-Post-Workout Meals will be eaten with 30-45min of Moderate to Extremely intense workouts.
+The Herbs and Spices List should be used as garnishes additions where applicable.
 
-Post-Workout Meal Breakdown: 84-98g of carbs, 53-56g of protein, 17.5-21.5g of fat + 4-6 grams of BCAAs
+Pre-Workout Meal Macro Breakdown: ~33.5-50.5g of carbs and  8.5-17g of protein.
 
-Wake Up Time: 8am PDT
+Post-Workout Meal Macro Breakdown: 84-98g of carbs, 53-56g of protein
+
+Add 17.5-21.5g of fat and 4-6 grams of BCAAs after Workouts that are of Hard/High Intensity or Greater
+
+Pre- and Post-Workout Meals should only be added to the nutrition plan when exercises of Moderate to Extremely intense workouts/exercises are added to my activities of the day.
+
+Breakfast, Lunch and Dinner should be timed 3-4hrs apart.
+
+Pre-Workout Meals should be timed 3-4hrs apart from Breakfast, Lunch and Dinner AND 60-90min prior to workout.
+
+Lunch and Dinner should be timed 3-4hrs after a Post-Workout Meal.
+
+Post-Workout meals MUST be eaten with 30-45min after a workout.
+
+Make sure that there is a 2 hour fasted state between last meal or snack and bed time.
 
 Activities of the Day: "
-- Commute to Wrestling 3:30pm to 5pm
-- Shoulder & Scapula PAILs/RAILs at 5pm-6pm (low to moderate intensity)
-- Wrestling 6-7pm (High intensity)
-- 30min Commute home leave at 8pm
+- Wake Up at 8am PDT
+- Commute to the gym 10-11am
+- JiuJitsu Practice 11am-1pm (moderate Intensity)
+- 30min Commute home leave at 2pm
+- Dinner at 5:30pm.
 "
 
-First meal no earlier than 10am.
-
-Dinner to be finished no later than 7:30pm.
-
-Bed Time: Make sure there is a 2 hour fasted state between last meal and bed time.
+Wake Time the Following Day: Any time
 
 Goal: Fat loss and improved VO2 Max
 
@@ -35,116 +55,7 @@ Height: 5'5"
 
 Body Fat %: 40%
 
-Preferred Veggies:"
-Avocado
-Brazil Nuts
-Chestnuts
-Hickory Nuts
-Macadamia Nuts
-Pecans
-Pine Nuts
-Walnuts
-Kohlrabi
-Radish
-Rutabaga
-Allspice
-Turnip
-Avocado
-Banana
-Basil
-Bay Leaf
-Fennel Bulb
-Black Pepper
-Blueberry
-Parsnip
-Brown Rice
-Water Chestnuts
-Caraway Seed
-Cardamom
-Cayenne Pepper
-Celery Seed
-Chervil
-Chili Powder
-Cilantro
-Cinnamon
-Cloves
-Coriander
-Cucumber
-Capers
-Cumin
-Cucumber
-Dill (Fresh)
-Dragon Fruit
-Arugula
-Fennel Seed
-Fenugreek Seed
-Flax Seeds
-Ginger
-Bok Choy
-Grapefruit
-Grapes
-Guava
-Hemp Hearts
-Hot Pepper
-Huckleberry
-Jackfruit
-Kiwi
-Dandelion Greens
-Kumquat
-Lemon
-Escarole
-Lime
-Loganberries
-Mace
-Mangosteen
-Marionberry
-Marjoram
-Millet
-Grape Leaves
-Lettuce
-Mustard Seed
-Nutmeg
-Orange
-Oregano
-Mustard Greens
-Papaya
-Paprika
-Radicchio
-Passionfruit
-Pepino Melon
-Peppermint (Fresh)
-Pineapple
-Poppy Seed
-Pumpkin Seeds
-Watercress
-Oyster Mushrooms
-Rosemary (Fresh)
-Saffron
-Sage
-Salmonberry
-Savoury
-Eggplant
-Sour Cherries
-Spearmint (Fresh)
-Strawberry
-Sunflower Seeds
-Tarragon
-Thyme
-Turmeric
-Bell Pepper
-Nori (Fresh)
-Wakame
-Kombu
-White Rice
-Wild Rice
-Mung Bean Sprouts
-Radish Sprouts
-Chayote Squash
-Yellow Squash
-Zucchini
-"
-
-Preferred Protein:”
+Protein List:”
 - Eggs
 - Swordfish
 - Salmon
@@ -156,22 +67,151 @@ Preferred Protein:”
 - Pork Shoulder
 “
 
-Foods I don’t like, don’t eat and/or have a food intolerance:"
-- Cashews
-- Cauliflower
-- Pistachios
-- Prunes
-- Rice Noodles
-- Tomato
-- Tofu
-- Quinoa
-- Milk
-- Milk products
-- Broccoli
-- Spinach
-- Honey
-- Chia Seeds
-- Mango
-- Strawberries
+Complex Carb List:"
+- Butternut Squash
+- Acorn Squash
+- Winter Squash
+- Pumpkin
+- Potato
+- Sweet Potato
+- Parsnip
+- Rutabaga
+- Turnip
+"
+
+Veggies:"
+- Horseradish
+- Chayote Squash
+- Bell Pepper
+- Capers
+- Cucumber
+- Kohlrabi
+- Fennel Bulb
+- Kombu
+- Nori (Fresh)
+- Oyster Mushrooms
+- Radish
+- Wakame
+- Yellow Squash
+- Zucchini
+"
+
+Leafy Greens:"
+- Endive
+- Arugula
+- Kale
+- Bok Choy
+- Dandelion Greens
+- Escarole
+- Lettuce
+- Radicchio
+- Watercress
+- Grape Leaves
+- Mustard Greens
+- Mung Bean Sprouts
+- Radish Sprouts
+- Alfalfa Sprouts
+"
+
+Fruit:"
+- Cranberry
+- Pomegranate
+- Avocado
+- Banana
+- Blueberry
+- Cucumber
+- Dragon Fruit
+- Grapefruit
+- Grapes
+- Guava
+- Huckleberry
+- Jackfruit
+- Kiwi
+- Kumquat
+- Lemon
+- Lime
+- Loganberries
+- Mangosteen
+- Marionberry
+- Orange
+- Papaya
+- Passionfruit
+- Pepino Melon
+- Pineapple
+- Salmonberry
+- Sour Cherries
+"
+
+Nuts & Seeds: "
+- Flax Seeds
+- Poppy Seed
+- Hemp Hearts
+- Pumpkin Seeds
+- Sunflower Seeds
+- Brazil Nuts
+- Chestnuts
+- Hickory Nuts
+- Macadamia Nuts
+- Pecans
+- Pine Nuts
 - Walnuts
 "
+
+Herbs: "
+- Basil
+- Bay Leaf
+- Chervil
+- Cilantro
+- Dill (Fresh)
+- Marjoram
+- Mint
+- Peppermint (Fresh)
+- Rosemary (Fresh)
+- Sage
+- Savoury
+- Spearmint (Fresh)
+- Tarragon
+- Thyme
+"
+
+Spices:"
+- Allspice
+- Black Pepper
+- Caraway Seed
+- Cardamom
+- Cayenne Pepper
+- Celery Seed
+- Chili Powder
+- Cinnamon
+- Cloves
+- Coriander
+- Cumin
+- Fennel Seed
+- Fenugreek Seed
+- Ginger
+- Hot Pepper
+- Mace
+- Mustard Seed
+- Nutmeg
+- Oregano
+- Paprika
+- Saffron
+- Turmeric
+"
+
+NO Cashews
+NO Cauliflower
+NO Pistachios
+NO Prunes
+NO Rice Noodles
+NO Tomatoes
+NO Tofu
+NO Quinoa
+NO Milk or Milk Products
+NO Broccoli
+NO Spinach
+NO Rice
+NO Honey
+NO Chia Seeds
+NO Strawberries
+NO Walnuts
