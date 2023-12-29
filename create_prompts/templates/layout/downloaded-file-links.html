@@ -1,0 +1,16 @@
+<div class="mt-5 d-flex flex-column justify-content-center">
+    <div class="mb-5 text-center">
+        <h2>Original File</h2>
+        <a href="{{ original_file }}" download>Download Original File</a>
+    </div>
+    <div class="text-center">
+        <h2>Output Files</h2>
+        <ul>
+            {% for file_path in output_files %}
+                <li><a href="{{ file_path }}" download>Download {{ file_path }}</a></li>
+            {% empty %}
+                <p>No files available.</p>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

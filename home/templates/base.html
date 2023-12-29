@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    {% block header %} 
+        {% include 'layout/header.html'%} 
+    {% endblock %}
+
+</head>
+
+<body>
+
+    {% block nav %}
+        {% include 'layout/navbar.html'%}
+    {% endblock %}
+
+    <div class="d-flex flex-column vh-100" style="padding: 10% 5% 10%;">
+        <div class="h-100">
+
+            {% block title %}
+                {% include 'layout/page-title.html'%}
+            {% endblock %}
+
+            <hr />
+
+            {% block messages %}
+                {% include 'layout/message-alerts.html' %}
+            {% endblock %}
+
+            {% block body %}
+                {% include 'layout/announcements.html'%}
+            {% endblock %}
+
+            {% block footer %}
+                {% include 'layout/footer.html'%}
+            {% endblock %}
+
+        </div>
+    </div>
+
+
+</body>
+</html>
