@@ -12,10 +12,12 @@ from google.api_core.client_options import ClientOptions
 from prompts.forms import UploadFileForm
 from .forms import UserQuestionForm
 
+from .spacy_nlp import find_answer
+
 # Create your views here.
 def document_ai(request):
     header = "Google Cloud's Document AI"
-    sub_header = 'Currently Testing Document AI.'
+    sub_header = 'This page allows you to upload the document to the AI.'
 
     context = {
         'header': header,
@@ -108,31 +110,57 @@ def document_ai(request):
         context['form'] = form
         request.session['processed_text'] = document.text
         # Redirect the user to the output and messages
-        return redirect('doc_ai_output_view')
+        return redirect('ask_question')
     
     else:
         # Handling other HTTP methods if necessary
         return JsonResponse({"error": "Invalid HTTP method"}, status=405)
-
-def doc_ai_output_view(request):
-    # Retrieve the text from the session
-    text = request.session.get('processed_text', '')
-
-    return render(request, 'doc-ai-output.html', {'text': text})
-
+    
 def ask_question_view(request):
+    header = "Google Cloud's Document AI"
+    sub_header = 'This page process your question and saves it to be answered by the AI.'
     # Check if there is processed text in the session
     processed_text = request.session.get('processed_text', None)
+
+    context = {
+        'header': header,
+        'sub_header': sub_header,
+        'text': processed_text,
+        'answer': None
+    }
 
     if request.method == 'POST':
         form = UserQuestionForm(request.POST)
         if form.is_valid():
-            # Handle the user's question here
-            # For example, you might want to search the processed text for answers
-            # or save the question for further processing.
+            # Handle the user's question
+            question = form.cleaned_data['question']
+            
+            # Use NLP to search for answers in the processed text
+            answer = find_answer(processed_text, question) if processed_text else "No document processed."
+            context['answer'] = answer
 
-            return redirect('some_other_view')
+            # Save the answer in the session
+            request.session['answer'] = answer
+
+            return redirect('doc_ai_output_view')
     else:
         form = UserQuestionForm()
 
-    return render(request, 'ask-question.html', {'form': form, 'processed_text': processed_text})
+    context['form'] = form
+
+    return render(request, 'form-page.html', context)
+
+def doc_ai_output_view(request):
+    header = "Google Cloud's Document AI & Spacy"
+    sub_header = "This page provides the AI's response to your question."
+
+    # Retrieve the text from the session
+    answer = request.session.get('answer', "No answer available.")
+
+    context = {
+        'header': header,
+        'sub_header': sub_header,
+        'answer': answer,
+    }
+
+    return render(request, 'doc_ai.html', context)
