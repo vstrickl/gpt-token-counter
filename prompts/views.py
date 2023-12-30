@@ -9,7 +9,7 @@ from django.urls import reverse
 from django.shortcuts import render, redirect
 
 from .forms import SplitTextForm
-from .forms import TokenCountForm
+from .forms import UploadFileForm
 
 # Create your views here.
 def token_counter(request):
@@ -22,7 +22,7 @@ def token_counter(request):
     }
 
     if request.method == 'POST':
-        form = TokenCountForm(request.POST, request.FILES)
+        form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
             uploaded_file = request.FILES.get('file') 
             selected_file = form.cleaned_data.get('existing_file')
@@ -56,7 +56,7 @@ def token_counter(request):
             request.session['token_count'] = token_count
             return redirect('num_tokens')
     else:
-        form = TokenCountForm()
+        form = UploadFileForm()
 
     context['form'] = form
 

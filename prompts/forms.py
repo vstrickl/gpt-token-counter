@@ -22,12 +22,12 @@ class SplitTextForm(forms.Form):
         files = [(os.path.join(uploads_dir, f), f) for f in os.listdir(uploads_dir) if os.path.isfile(os.path.join(uploads_dir, f))]
         return [('', '--- Select a File ---')] + files
 
-class TokenCountForm(forms.Form):
+class UploadFileForm(forms.Form):
     file = forms.FileField(label='Upload File', required=False)
     existing_file = forms.ChoiceField(label='Or Select Existing File', required=False)
 
     def __init__(self, *args, **kwargs):
-        super(TokenCountForm, self).__init__(*args, **kwargs)
+        super(UploadFileForm, self).__init__(*args, **kwargs)
         self.fields['existing_file'].choices = self.get_existing_files()
 
     def get_existing_files(self):

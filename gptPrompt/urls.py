@@ -20,7 +20,8 @@ from django.urls import include, path
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('my-prompts/', include('create_prompts.urls')),
+    path('my-prompts/', include('prompts.urls')),
+    path('gcloud/', include('gcloud.urls')),
     path('', include('home.urls')),
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
