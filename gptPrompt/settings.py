@@ -153,7 +153,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Google Cloud Document AI
-# 
+# https://cloud.google.com/document-ai/docs/libraries
+# https://codelabs.developers.google.com/codelabs/docai-ocr-python#1
 
 YOUR_PROJECT_ID = config('GCLOUD_PROJECT_ID')
 YOUR_PROCESSOR_LOCATION = 'us'
